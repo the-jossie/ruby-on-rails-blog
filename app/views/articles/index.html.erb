@@ -3,8 +3,8 @@
   <% @articles.each do |article| %>
     <li>
       <%= link_to article.title, article %>
-
-      </a>
-    </li>
-  <% end %>
+    </a>
+  </li>
+<% end %>
 </ul>
+<%= link_to "New Article", new_article_path %>
